@@ -8,7 +8,7 @@ public class AutoBlogTest extends BaseTest {
 	
 	
 	/**
-	 * This methoc will enter the car info and check the price
+	 * This method will enter the car info and check the price
 	 * @param make
 	 * @param model
 	 * @param zip
