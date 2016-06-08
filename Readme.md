@@ -21,5 +21,6 @@
   2. Framework: TestNG
   3. Programming language: Java
   4. Tools: Selenium webdriver 
-  The tests are automated using Java programming language and selenium webdriver API's. The framework is TestNG. I used PageObject pattern, which provides more flexibility for future changes and keep things organized. Maven build tool will take care of downloading all dependencies.
+  
+    The tests are automated using Java programming language and selenium webdriver API's. The framework is TestNG. I used PageObject pattern, which provides more flexibility for future changes and keep things organized. Maven build tool will take care of downloading all dependencies.
 
