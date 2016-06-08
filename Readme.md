@@ -1,6 +1,7 @@
 The main aim of this sample is automate 2 scenarios on https://autoblog.truecar.com
-1. Test Case 1: Ensure that your selections (2015 Lincoln MKS, 90401) from the first page persisted to the next.
-2. Test Case 2: Output the dealer information
+
+    1. Test Case 1: Ensure that your selections (2015 Lincoln MKS, 90401) from the first page persisted to the next.
+    2. Test Case 2: Output the dealer information
 
 -Installation and running instructions
 
