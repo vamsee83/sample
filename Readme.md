@@ -9,7 +9,7 @@ The main aim of this sample is automate 2 scenarios on https://autoblog.truecar.
     2. Set the enviornment variable "JAVA_HOME" to (ex:C:\Program Files\Java\jdk1.8.0_25) directory
     3. Update the system path with Maven path \bin directory
     4. check from command prompt if maven is working with "mvn -version" it should print the maven version
-    5. Download project from https://github.com/vamsee83/challenge_assignment.git
+    5. Download project from https://github.com/vamsee83/sample.git
 
 `   Finally, run the project with command "mvn -U clean install". It will build the poroject(download selenium, chromedriver etc) and     run tests.
 
