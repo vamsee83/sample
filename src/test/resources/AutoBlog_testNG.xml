@@ -1,0 +1,38 @@
+<suite name="AutoBlogTest" verbose="10" allow-return-values="true">  
+  <!--	RabbitMQ Server	-->
+    <parameter name="url" value="https://autoblog.truecar.com" />
+    <parameter name="browser" value="chrome" />
+		
+	<!-- TEST CASES -->
+	
+	<test name="Test Case 1: Ensure that your selections (2015 Lincoln MKS, 90401) from the last page persisted to the next." preserve-order="true">
+  	<parameter name="make" value="Lincoln" />
+  	<parameter name="model" value="MKS" />
+  	<parameter name="zip" value="90401" />
+  	<parameter name="completeName" value="2016 Lincoln MKS" />
+  	<parameter name="state_zip" value="CA 90401" />
+	<classes> 
+      <class name="com.org.test.project.AutoBlogTest">        
+        <methods>
+          <include name="welcomePageToReportPage" />
+        </methods>
+      </class>      
+     </classes>
+	</test> 
+	
+	<test name="Test Case 2: Output the dealer information" preserve-order="true">
+  	<parameter name="style" value="3.5L EcoBoost AWD" />
+  	<parameter name="firstName" value="king" />
+  	<parameter name="lastName" value="zzzzz" />
+  	<parameter name="street" value="1234 street" />
+  	<parameter name="phone" value="3878382838" />
+  	<parameter name="email" value="xx@gmail.com"/>
+	<classes> 
+      <class name="com.org.test.project.AutoBlogTest">        
+        <methods>
+          <include name="reportPageToDealerPage" />
+        </methods>
+      </class>      
+     </classes>
+	</test> 
+ </suite>
