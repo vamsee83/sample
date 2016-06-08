@@ -15,7 +15,7 @@
     The html report is available at ./target/surefire-reports/emailable-report.html 
     TestNG testcases file: src/test/resources/AutoBlog_testNG.xml
  
--Brief explanation of your approach
+-Brief explanation of approach
 
   1. Build tool: Maven
   2. Framework: TestNG
